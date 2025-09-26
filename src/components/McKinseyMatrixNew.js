@@ -6,11 +6,11 @@ const McKinseyMatrix = () => {
     const [selectedUnit, setSelectedUnit] = useState(null);
     const { metadata, businessUnits, factoresInternos, factoresExternos } = falabellaData;
 
-    // Función para calcular el tamaño de la burbuja basado en participación de mercado
+    // Función para calcular el tamaño de la burbuja basado en participación de mercado - Compacto
     const calculateBubbleSize = (marketShare) => {
         const maxShare = Math.max(...businessUnits.map(unit => unit.marketShare));
-        const minSize = 60;
-        const maxSize = 180;
+        const minSize = 45;
+        const maxSize = 120;
         return minSize + (marketShare / maxShare) * (maxSize - minSize);
     };
 
@@ -267,7 +267,7 @@ const McKinseyMatrix = () => {
                 </div>
 
                 {/* Tablas de Factores */}
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '3rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '3rem' }}>
                     {/* Tabla Factores Internos */}
                     <div className="data-table-card">
                         <div className="table-header">
