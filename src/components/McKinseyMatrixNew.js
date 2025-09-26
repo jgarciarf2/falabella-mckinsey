@@ -40,15 +40,17 @@ const McKinseyMatrix = () => {
         };
 
         const getArrowPath = (direction, length) => {
+            const centerX = 40;
+            const centerY = 40;
             switch (direction) {
                 case 'up':
-                    return `M 0 ${length} L 0 0 M -5 5 L 0 0 L 5 5`;
+                    return `M ${centerX} ${centerY} L ${centerX} ${centerY - length} M ${centerX - 6} ${centerY - length + 8} L ${centerX} ${centerY - length} L ${centerX + 6} ${centerY - length + 8}`;
                 case 'up-right':
-                    return `M 0 ${length} L ${length} 0 M ${length - 8} 5 L ${length} 0 L ${length - 5} 8`;
+                    return `M ${centerX} ${centerY} L ${centerX + length * 0.7} ${centerY - length * 0.7} M ${centerX + length * 0.7 - 8} ${centerY - length * 0.7 + 3} L ${centerX + length * 0.7} ${centerY - length * 0.7} L ${centerX + length * 0.7 - 3} ${centerY - length * 0.7 + 8}`;
                 case 'right':
-                    return `M 0 0 L ${length} 0 M ${length - 5} -5 L ${length} 0 L ${length - 5} 5`;
+                    return `M ${centerX} ${centerY} L ${centerX + length} ${centerY} M ${centerX + length - 8} ${centerY - 6} L ${centerX + length} ${centerY} L ${centerX + length - 8} ${centerY + 6}`;
                 case 'down-right':
-                    return `M 0 0 L ${length} ${length} M ${length - 5} ${length - 8} L ${length} ${length} L ${length - 8} ${length - 5}`;
+                    return `M ${centerX} ${centerY} L ${centerX + length * 0.7} ${centerY + length * 0.7} M ${centerX + length * 0.7 - 8} ${centerY + length * 0.7 - 3} L ${centerX + length * 0.7} ${centerY + length * 0.7} L ${centerX + length * 0.7 - 3} ${centerY + length * 0.7 - 8}`;
                 default:
                     return '';
             }
@@ -56,14 +58,17 @@ const McKinseyMatrix = () => {
 
         return (
             <div style={arrowStyles}>
-                <svg width={arrow.length + 10} height={arrow.length + 10} style={{ overflow: 'visible' }}>
+                <svg width="80" height="80" viewBox="0 0 80 80" style={{ overflow: 'visible' }}>
                     <path
-                        d={getArrowPath(arrow.direction, arrow.length)}
-                        stroke="#374151"
+                        d={getArrowPath(arrow.direction, 35)}
+                        stroke="#ffffff"
                         strokeWidth="3"
                         fill="none"
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        style={{
+                            filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.7))',
+                        }}
                     />
                 </svg>
             </div>
@@ -232,7 +237,7 @@ const McKinseyMatrix = () => {
                                             )}
                                         </div>
 
-                                        {/* Flecha direccional */}
+                                        {/* Flecha direccional - DENTRO de la burbuja */}
                                         <div
                                             style={{
                                                 position: 'absolute',
@@ -240,7 +245,10 @@ const McKinseyMatrix = () => {
                                                 top: `${y}%`,
                                                 transform: 'translate(-50%, -50%)',
                                                 pointerEvents: 'none',
-                                                zIndex: 15
+                                                zIndex: 25,
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center'
                                             }}
                                         >
                                             {renderArrow(unit)}

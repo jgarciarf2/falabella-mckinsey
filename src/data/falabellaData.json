@@ -82,7 +82,7 @@
       "color": "#dc2626",
       "position": { "x": 29, "y": 40 },
       "strategy": "Esfuerzo en inversión y crecimiento",
-      "arrow": { "direction": "up-right", "length": 40 }
+      "arrow": { "direction": "up-right", "length": 50 }
     },
     {
       "id": 2,
@@ -94,7 +94,7 @@
       "color": "#2563eb",
       "position": { "x": 8, "y": 10 },
       "strategy": "Inversión y crecimiento selectivo",
-      "arrow": { "direction": "up", "length": 35 }
+      "arrow": { "direction": "up", "length": 45 }
     },
     {
       "id": 3,
@@ -106,7 +106,7 @@
       "color": "#16a34a",
       "position": { "x": 46, "y": 25 },
       "strategy": "Selectividad",
-      "arrow": { "direction": "right", "length": 30 }
+      "arrow": { "direction": "right", "length": 40 }
     },
     {
       "id": 4,
@@ -118,7 +118,7 @@
       "color": "#7c3aed",
       "position": { "x": 32, "y": 20 },
       "strategy": "Inversión y crecimiento selectivo",
-      "arrow": { "direction": "up-right", "length": 25 }
+      "arrow": { "direction": "up-right", "length": 45 }
     }
   ],
   "quadrants": [
