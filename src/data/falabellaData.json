@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Matriz McKinsey - Falabella",
+    "company": "Falabella",
+    "xAxis": "Fortalezas",
+    "yAxis": "Atractivo",
+    "date": "2025-09-26",
+    "description": "Análisis de portafolio de unidades de negocio"
+  },
+  "factoresInternos": [
+    {
+      "unidad": "Retail Físico",
+      "omnicanal": { "porcentaje": 30, "valor": 4 },
+      "sostenibilidad": { "porcentaje": 25, "valor": 3 },
+      "logistica": { "porcentaje": 25, "valor": 4 },
+      "talento": { "porcentaje": 20, "valor": 3 },
+      "scoreTotal": 3.55
+    },
+    {
+      "unidad": "E-commerce / Marketplace", 
+      "omnicanal": { "porcentaje": 30, "valor": 5 },
+      "sostenibilidad": { "porcentaje": 25, "valor": 5 },
+      "logistica": { "porcentaje": 25, "valor": 5 },
+      "talento": { "porcentaje": 20, "valor": 3 },
+      "scoreTotal": 4.6
+    },
+    {
+      "unidad": "Marcas Propias / +Verde",
+      "omnicanal": { "porcentaje": 30, "valor": 3 },
+      "sostenibilidad": { "porcentaje": 25, "valor": 1 },
+      "logistica": { "porcentaje": 25, "valor": 3 },
+      "talento": { "porcentaje": 20, "valor": 4 },
+      "scoreTotal": 2.7
+    },
+    {
+      "unidad": "Servicios (Financieros, Postventa, Talleres)",
+      "omnicanal": { "porcentaje": 30, "valor": 3 },
+      "sostenibilidad": { "porcentaje": 25, "valor": 2 },
+      "logistica": { "porcentaje": 25, "valor": 4 },
+      "talento": { "porcentaje": 20, "valor": 5 },
+      "scoreTotal": 3.4
+    }
+  ],
+  "factoresExternos": [
+    {
+      "unidad": "Retail Físico",
+      "tamano": { "porcentaje": 25, "valor": 5 },
+      "crecimiento": { "porcentaje": 50, "valor": 2 },
+      "rentabilidad": { "porcentaje": 25, "valor": 3 },
+      "scoreTotal": 0.75
+    },
+    {
+      "unidad": "E-commerce / Marketplace",
+      "tamano": { "porcentaje": 25, "valor": 4 },
+      "crecimiento": { "porcentaje": 50, "valor": 5 },
+      "rentabilidad": { "porcentaje": 25, "valor": 4 },
+      "scoreTotal": 4.5
+    },
+    {
+      "unidad": "Marcas Propias / +Verde", 
+      "tamano": { "porcentaje": 25, "valor": 3 },
+      "crecimiento": { "porcentaje": 50, "valor": 4 },
+      "rentabilidad": { "porcentaje": 25, "valor": 4 },
+      "scoreTotal": 3.75
+    },
+    {
+      "unidad": "Servicios (Financieros, Postventa, Talleres)",
+      "tamano": { "porcentaje": 25, "valor": 3 },
+      "crecimiento": { "porcentaje": 50, "valor": 4 },
+      "rentabilidad": { "porcentaje": 25, "valor": 5 },
+      "scoreTotal": 4
+    }
+  ],
+  "businessUnits": [
+    {
+      "id": 1,
+      "name": "Retail Físico",
+      "sales": 3000000,
+      "marketShare": 0.44,
+      "fortaleza": 3.55,
+      "atractivo": 0.75,
+      "color": "#dc2626",
+      "position": { "x": 59, "y": 87 },
+      "strategy": "Esfuerzo en inversión y crecimiento",
+      "arrow": { "direction": "up-right", "length": 40 }
+    },
+    {
+      "id": 2,
+      "name": "E-commerce / Marketplace",
+      "sales": 1800000,
+      "marketShare": 0.26,
+      "fortaleza": 4.6,
+      "atractivo": 4.5,
+      "color": "#2563eb",
+      "position": { "x": 77, "y": 25 },
+      "strategy": "Inversión y crecimiento selectivo",
+      "arrow": { "direction": "up", "length": 35 }
+    },
+    {
+      "id": 3,
+      "name": "Marcas Propias / +Verde",
+      "sales": 1200000,
+      "marketShare": 0.18,
+      "fortaleza": 2.7,
+      "atractivo": 3.75,
+      "color": "#16a34a",
+      "position": { "x": 45, "y": 37 },
+      "strategy": "Selectividad",
+      "arrow": { "direction": "right", "length": 30 }
+    },
+    {
+      "id": 4,
+      "name": "Servicios (Financieros, Postventa, Talleres)",
+      "sales": 800000,
+      "marketShare": 0.12,
+      "fortaleza": 3.4,
+      "atractivo": 4,
+      "color": "#7c3aed",
+      "position": { "x": 57, "y": 33 },
+      "strategy": "Inversión y crecimiento selectivo",
+      "arrow": { "direction": "up-right", "length": 25 }
+    }
+  ],
+  "quadrants": [
+    {
+      "name": "Stars",
+      "description": "Alto crecimiento, alta participación",
+      "strategy": "Invertir para mantener liderazgo",
+      "color": "#dbeafe"
+    },
+    {
+      "name": "Cash Cows",
+      "description": "Bajo crecimiento, alta participación", 
+      "strategy": "Maximizar flujo de efectivo",
+      "color": "#dcfce7"
+    },
+    {
+      "name": "Question Marks",
+      "description": "Alto crecimiento, baja participación",
+      "strategy": "Invertir selectivamente o desinvertir",
+      "color": "#fef3c7"
+    },
+    {
+      "name": "Dogs",
+      "description": "Bajo crecimiento, baja participación",
+      "strategy": "Cosechar o desinvertir",
+      "color": "#fee2e2"
+    }
+  ]
+}
