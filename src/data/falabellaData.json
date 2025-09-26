@@ -80,7 +80,7 @@
       "fortaleza": 3.55,
       "atractivo": 3,
       "color": "#dc2626",
-      "position": { "x": 59, "y": 87 },
+      "position": { "x": 29, "y": 40 },
       "strategy": "Esfuerzo en inversión y crecimiento",
       "arrow": { "direction": "up-right", "length": 40 }
     },
@@ -92,7 +92,7 @@
       "fortaleza": 4.6,
       "atractivo": 4.5,
       "color": "#2563eb",
-      "position": { "x": 77, "y": 25 },
+      "position": { "x": 8, "y": 10 },
       "strategy": "Inversión y crecimiento selectivo",
       "arrow": { "direction": "up", "length": 35 }
     },
@@ -104,7 +104,7 @@
       "fortaleza": 2.7,
       "atractivo": 3.75,
       "color": "#16a34a",
-      "position": { "x": 45, "y": 37 },
+      "position": { "x": 46, "y": 25 },
       "strategy": "Selectividad",
       "arrow": { "direction": "right", "length": 30 }
     },
@@ -116,7 +116,7 @@
       "fortaleza": 3.4,
       "atractivo": 4,
       "color": "#7c3aed",
-      "position": { "x": 57, "y": 33 },
+      "position": { "x": 32, "y": 20 },
       "strategy": "Inversión y crecimiento selectivo",
       "arrow": { "direction": "up-right", "length": 25 }
     }

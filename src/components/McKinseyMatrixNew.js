@@ -158,8 +158,8 @@ const McKinseyMatrix = () => {
                             {/* Burbujas de unidades de negocio */}
                             {businessUnits.map((unit) => {
                                 const size = calculateBubbleSize(unit.marketShare);
-                                const x = (unit.fortaleza / 6) * 100;
-                                const y = 100 - (unit.atractivo / 6) * 100;
+                                const x = 100 - (unit.fortaleza / 5) * 100;  // Invertido y escala 5
+                                const y = 100 - (unit.atractivo / 5) * 100;   // Escala 5
 
                                 return (
                                     <div key={unit.id}>
@@ -259,10 +259,10 @@ const McKinseyMatrix = () => {
                         </div>
 
                         {/* Escalas */}
-                        <div className="scale-label scale-top scale-high">6</div>
+                        <div className="scale-label scale-top scale-high">5</div>
                         <div className="scale-label scale-bottom scale-low">0</div>
-                        <div className="scale-label scale-left scale-low">0</div>
-                        <div className="scale-label scale-right scale-high">6</div>
+                        <div className="scale-label scale-left scale-high">5</div>
+                        <div className="scale-label scale-right scale-low">0</div>
                     </div>
                 </div>
 
