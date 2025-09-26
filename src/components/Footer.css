@@ -22,16 +22,16 @@
   letter-spacing: 0.5px;
 }
 
-.footer-content strong {
+.footer-content strong a {
   color: #3498db;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer-content strong:hover {
+.footer-content strong a:hover {
   color: #2980b9;
-  cursor: default;
+  text-decoration: underline;
 }
 
 /* Responsive design */
