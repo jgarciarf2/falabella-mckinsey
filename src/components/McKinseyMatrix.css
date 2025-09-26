@@ -2,15 +2,19 @@
 .mckinsey-container {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .matrix-wrapper {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+.x-axis-label,
+.y-axis-label {
+  display: none;
+}
 /* Header profesional */
 .header-card {
   background: rgba(255, 255, 255, 0.98);
@@ -100,6 +104,99 @@
   position: relative;
   width: 100%;
   height: 600px;
+  margin: 4rem 2rem;
+}
+
+/* Etiquetas de los ejes */
+.axis-labels {
+  position: absolute;
+  inset: -4rem -2rem;
+}
+
+/* Eje Y - Atractivo de mercado (izquierda) */
+.y-axis {
+  position: absolute;
+  left: -4rem;
+  top: 0;
+  bottom: 0;
+  width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.y-axis-title {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+.y-axis-labels {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+}
+
+.y-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #475569;
+  transform: translateY(-50%);
+}
+
+/* Eje X - Fortalezas (abajo) */
+.x-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-axis-title {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+.x-axis-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.x-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #475569;
+  transform: translateX(-50%);
 }
 
 /* Cuadrantes de fondo */

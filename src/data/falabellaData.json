@@ -47,7 +47,7 @@
       "tamano": { "porcentaje": 25, "valor": 5 },
       "crecimiento": { "porcentaje": 50, "valor": 2 },
       "rentabilidad": { "porcentaje": 25, "valor": 3 },
-      "scoreTotal": 0.75
+      "scoreTotal": 3
     },
     {
       "unidad": "E-commerce / Marketplace",
@@ -78,7 +78,7 @@
       "sales": 3000000,
       "marketShare": 0.44,
       "fortaleza": 3.55,
-      "atractivo": 0.75,
+      "atractivo": 3,
       "color": "#dc2626",
       "position": { "x": 59, "y": 87 },
       "strategy": "Esfuerzo en inversión y crecimiento",

@@ -132,6 +132,29 @@ const McKinseyMatrix = () => {
                                 <div className="horizontal-line-2"></div>
                             </div>
 
+                            {/* Etiquetas de los ejes */}
+                            <div className="axis-labels">
+                                {/* Eje Y - Atractivo de mercado */}
+                                <div className="y-axis">
+                                    <div className="y-axis-title">Atractivo de mercado</div>
+                                    <div className="y-axis-labels">
+                                        <div className="y-label">Alto</div>
+                                        <div className="y-label">Medio</div>
+                                        <div className="y-label">Bajo</div>
+                                    </div>
+                                </div>
+
+                                {/* Eje X - Fortalezas del negocio */}
+                                <div className="x-axis">
+                                    <div className="x-axis-labels">
+                                        <div className="x-label">Fuerte</div>
+                                        <div className="x-label">Medio</div>
+                                        <div className="x-label">Débil</div>
+                                    </div>
+                                    <div className="x-axis-title">Fortalezas del negocio</div>
+                                </div>
+                            </div>
+
                             {/* Burbujas de unidades de negocio */}
                             {businessUnits.map((unit) => {
                                 const size = calculateBubbleSize(unit.marketShare);
