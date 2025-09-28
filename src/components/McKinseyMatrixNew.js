@@ -286,10 +286,15 @@ const McKinseyMatrix = () => {
                                 <thead className="table-head">
                                     <tr>
                                         <th>Unidades</th>
-                                        <th>Omnicanal 30%</th>
-                                        <th>Sostenibilidad 25%</th>
-                                        <th>Logística 25%</th>
-                                        <th>Talento 20%</th>
+                                        <th>Omnicanal 15%</th>
+                                        <th>Sostenibilidad 10%</th>
+                                        <th>Logística 15%</th>
+                                        <th>Talento 10%</th>
+                                        <th>Comunicación 12%</th>
+                                        <th>Reconocimiento Marca 15%</th>
+                                        <th>Ubicación 13%</th>
+                                        <th>Percepción Servicios 5%</th>
+                                        <th>Promociones 5%</th>
                                         <th>Valor</th>
                                     </tr>
                                 </thead>
@@ -301,6 +306,11 @@ const McKinseyMatrix = () => {
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.sostenibilidad.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.logistica.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.talento.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.comunicacion.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.reconocimientoMarca.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.ubicacion.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.percepcionServicios.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.promociones.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center', fontWeight: 'bold', color: '#059669' }}>{factor.scoreTotal}</td>
                                         </tr>
                                     ))}
@@ -319,9 +329,13 @@ const McKinseyMatrix = () => {
                                 <thead className="table-head">
                                     <tr>
                                         <th>Unidades</th>
-                                        <th>Tamaño 25%</th>
-                                        <th>Crecimiento 50%</th>
-                                        <th>Rentabilidad 25%</th>
+                                        <th>Tamaño 20%</th>
+                                        <th>Crecimiento 25%</th>
+                                        <th>Rentabilidad 15%</th>
+                                        <th>Capacidad Competencia 15%</th>
+                                        <th>Rivalidad 10%</th>
+                                        <th>Regulaciones Financieras 5%</th>
+                                        <th>Avances Tecnológicos 10%</th>
                                         <th>Valor</th>
                                     </tr>
                                 </thead>
@@ -332,6 +346,10 @@ const McKinseyMatrix = () => {
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.tamano.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.crecimiento.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center' }}>{factor.rentabilidad.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.capacidadCompetencia.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.rivalidad.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.regulacionesFinancieras.valor}</td>
+                                            <td className="table-cell" style={{ textAlign: 'center' }}>{factor.avancesTecnologicos.valor}</td>
                                             <td className="table-cell" style={{ textAlign: 'center', fontWeight: 'bold', color: '#7c3aed' }}>{factor.scoreTotal}</td>
                                         </tr>
                                     ))}

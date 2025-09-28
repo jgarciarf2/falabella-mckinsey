@@ -10,65 +10,101 @@
   "factoresInternos": [
     {
       "unidad": "Retail Físico",
-      "omnicanal": { "porcentaje": 30, "valor": 4 },
-      "sostenibilidad": { "porcentaje": 25, "valor": 3 },
-      "logistica": { "porcentaje": 25, "valor": 4 },
-      "talento": { "porcentaje": 20, "valor": 3 },
-      "scoreTotal": 3.55
+      "omnicanal": { "porcentaje": 15, "valor": 4 },
+      "sostenibilidad": { "porcentaje": 10, "valor": 3 },
+      "logistica": { "porcentaje": 15, "valor": 4 },
+      "talento": { "porcentaje": 10, "valor": 3 },
+      "comunicacion": { "porcentaje": 12, "valor": 3 },
+      "reconocimientoMarca": { "porcentaje": 15, "valor": 4 },
+      "ubicacion": { "porcentaje": 13, "valor": 5 },
+      "percepcionServicios": { "porcentaje": 5, "valor": 3 },
+      "promociones": { "porcentaje": 5, "valor": 4 },
+      "scoreTotal": 3.78
     },
     {
       "unidad": "E-commerce / Marketplace", 
-      "omnicanal": { "porcentaje": 30, "valor": 5 },
-      "sostenibilidad": { "porcentaje": 25, "valor": 5 },
-      "logistica": { "porcentaje": 25, "valor": 5 },
-      "talento": { "porcentaje": 20, "valor": 3 },
-      "scoreTotal": 4.6
+      "omnicanal": { "porcentaje": 15, "valor": 5 },
+      "sostenibilidad": { "porcentaje": 10, "valor": 5 },
+      "logistica": { "porcentaje": 15, "valor": 5 },
+      "talento": { "porcentaje": 10, "valor": 3 },
+      "comunicacion": { "porcentaje": 12, "valor": 4 },
+      "reconocimientoMarca": { "porcentaje": 15, "valor": 4 },
+      "ubicacion": { "porcentaje": 13, "valor": 3 },
+      "percepcionServicios": { "porcentaje": 5, "valor": 4 },
+      "promociones": { "porcentaje": 5, "valor": 5 },
+      "scoreTotal": 4.28
     },
     {
       "unidad": "Marcas Propias / +Verde",
-      "omnicanal": { "porcentaje": 30, "valor": 3 },
-      "sostenibilidad": { "porcentaje": 25, "valor": 1 },
-      "logistica": { "porcentaje": 25, "valor": 3 },
-      "talento": { "porcentaje": 20, "valor": 4 },
-      "scoreTotal": 2.7
+      "omnicanal": { "porcentaje": 15, "valor": 3 },
+      "sostenibilidad": { "porcentaje": 10, "valor": 1 },
+      "logistica": { "porcentaje": 15, "valor": 3 },
+      "talento": { "porcentaje": 10, "valor": 4 },
+      "comunicacion": { "porcentaje": 12, "valor": 2 },
+      "reconocimientoMarca": { "porcentaje": 15, "valor": 3 },
+      "ubicacion": { "porcentaje": 13, "valor": 3 },
+      "percepcionServicios": { "porcentaje": 5, "valor": 3 },
+      "promociones": { "porcentaje": 5, "valor": 3 },
+      "scoreTotal": 2.86
     },
     {
       "unidad": "Servicios (Financieros, Postventa, Talleres)",
-      "omnicanal": { "porcentaje": 30, "valor": 3 },
-      "sostenibilidad": { "porcentaje": 25, "valor": 2 },
-      "logistica": { "porcentaje": 25, "valor": 4 },
-      "talento": { "porcentaje": 20, "valor": 5 },
-      "scoreTotal": 3.4
+      "omnicanal": { "porcentaje": 15, "valor": 3 },
+      "sostenibilidad": { "porcentaje": 10, "valor": 2 },
+      "logistica": { "porcentaje": 15, "valor": 4 },
+      "talento": { "porcentaje": 10, "valor": 5 },
+      "comunicacion": { "porcentaje": 12, "valor": 3 },
+      "reconocimientoMarca": { "porcentaje": 15, "valor": 4 },
+      "ubicacion": { "porcentaje": 13, "valor": 2 },
+      "percepcionServicios": { "porcentaje": 5, "valor": 5 },
+      "promociones": { "porcentaje": 5, "valor": 3 },
+      "scoreTotal": 3.36
     }
   ],
   "factoresExternos": [
     {
       "unidad": "Retail Físico",
-      "tamano": { "porcentaje": 25, "valor": 5 },
-      "crecimiento": { "porcentaje": 50, "valor": 2 },
-      "rentabilidad": { "porcentaje": 25, "valor": 3 },
-      "scoreTotal": 3
+      "tamano": { "porcentaje": 20, "valor": 5 },
+      "crecimiento": { "porcentaje": 25, "valor": 2 },
+      "rentabilidad": { "porcentaje": 15, "valor": 3 },
+      "capacidadCompetencia": { "porcentaje": 15, "valor": 2 },
+      "rivalidad": { "porcentaje": 10, "valor": 2 },
+      "regulacionesFinancieras": { "porcentaje": 5, "valor": 3 },
+      "avancesTecnologicos": { "porcentaje": 10, "valor": 3 },
+      "scoreTotal": 2.95
     },
     {
       "unidad": "E-commerce / Marketplace",
-      "tamano": { "porcentaje": 25, "valor": 4 },
-      "crecimiento": { "porcentaje": 50, "valor": 5 },
-      "rentabilidad": { "porcentaje": 25, "valor": 4 },
-      "scoreTotal": 4.5
+      "tamano": { "porcentaje": 20, "valor": 4 },
+      "crecimiento": { "porcentaje": 25, "valor": 5 },
+      "rentabilidad": { "porcentaje": 15, "valor": 4 },
+      "capacidadCompetencia": { "porcentaje": 15, "valor": 4 },
+      "rivalidad": { "porcentaje": 10, "valor": 3 },
+      "regulacionesFinancieras": { "porcentaje": 5, "valor": 4 },
+      "avancesTecnologicos": { "porcentaje": 10, "valor": 5 },
+      "scoreTotal": 4.25
     },
     {
       "unidad": "Marcas Propias / +Verde", 
-      "tamano": { "porcentaje": 25, "valor": 3 },
-      "crecimiento": { "porcentaje": 50, "valor": 4 },
-      "rentabilidad": { "porcentaje": 25, "valor": 4 },
-      "scoreTotal": 3.75
+      "tamano": { "porcentaje": 20, "valor": 3 },
+      "crecimiento": { "porcentaje": 25, "valor": 4 },
+      "rentabilidad": { "porcentaje": 15, "valor": 4 },
+      "capacidadCompetencia": { "porcentaje": 15, "valor": 3 },
+      "rivalidad": { "porcentaje": 10, "valor": 4 },
+      "regulacionesFinancieras": { "porcentaje": 5, "valor": 3 },
+      "avancesTecnologicos": { "porcentaje": 10, "valor": 4 },
+      "scoreTotal": 3.65
     },
     {
       "unidad": "Servicios (Financieros, Postventa, Talleres)",
-      "tamano": { "porcentaje": 25, "valor": 3 },
-      "crecimiento": { "porcentaje": 50, "valor": 4 },
-      "rentabilidad": { "porcentaje": 25, "valor": 5 },
-      "scoreTotal": 4
+      "tamano": { "porcentaje": 20, "valor": 3 },
+      "crecimiento": { "porcentaje": 25, "valor": 4 },
+      "rentabilidad": { "porcentaje": 15, "valor": 5 },
+      "capacidadCompetencia": { "porcentaje": 15, "valor": 4 },
+      "rivalidad": { "porcentaje": 10, "valor": 3 },
+      "regulacionesFinancieras": { "porcentaje": 5, "valor": 2 },
+      "avancesTecnologicos": { "porcentaje": 10, "valor": 4 },
+      "scoreTotal": 3.95
     }
   ],
   "businessUnits": [
@@ -77,10 +113,10 @@
       "name": "Retail Físico",
       "sales": 3000000,
       "marketShare": 0.44,
-      "fortaleza": 3.55,
-      "atractivo": 3,
+      "fortaleza": 3.78,
+      "atractivo": 2.95,
       "color": "#dc2626",
-      "position": { "x": 29, "y": 40 },
+      "position": { "x": 24, "y": 41 },
       "strategy": "Esfuerzo en inversión y crecimiento",
       "arrow": { "direction": "up-right", "length": 50 }
     },
@@ -89,10 +125,10 @@
       "name": "E-commerce / Marketplace",
       "sales": 1800000,
       "marketShare": 0.26,
-      "fortaleza": 4.6,
-      "atractivo": 4.5,
+      "fortaleza": 4.28,
+      "atractivo": 4.25,
       "color": "#2563eb",
-      "position": { "x": 8, "y": 10 },
+      "position": { "x": 14, "y": 15 },
       "strategy": "Inversión y crecimiento selectivo",
       "arrow": { "direction": "up", "length": 45 }
     },
@@ -101,10 +137,10 @@
       "name": "Marcas Propias / +Verde",
       "sales": 1200000,
       "marketShare": 0.18,
-      "fortaleza": 2.7,
-      "atractivo": 3.75,
+      "fortaleza": 2.86,
+      "atractivo": 3.65,
       "color": "#16a34a",
-      "position": { "x": 46, "y": 25 },
+      "position": { "x": 43, "y": 27 },
       "strategy": "Selectividad",
       "arrow": { "direction": "right", "length": 40 }
     },
@@ -113,10 +149,10 @@
       "name": "Servicios (Financieros, Postventa, Talleres)",
       "sales": 800000,
       "marketShare": 0.12,
-      "fortaleza": 3.4,
-      "atractivo": 4,
+      "fortaleza": 3.36,
+      "atractivo": 3.95,
       "color": "#7c3aed",
-      "position": { "x": 32, "y": 20 },
+      "position": { "x": 33, "y": 20 },
       "strategy": "Inversión y crecimiento selectivo",
       "arrow": { "direction": "up-right", "length": 45 }
     }
